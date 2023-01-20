@@ -104,3 +104,12 @@ Ways to Tackle Underfitting:
 Increase model complexity
 Reduce noise in the data
 ```
+
+# What is Independant Variable?
+```
+
+```
+# What is dependant Varaiable?
+```
+
+```
