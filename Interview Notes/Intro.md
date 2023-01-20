@@ -51,35 +51,56 @@ Bias:
       when the error rate has a low value, we call it low Bias.
     
 Variance:  
-    * The difference between the error rate of testing data is called variance. 
+    * The difference between the error rate of training data and testing data is called variance. 
     * If the difference is high then it’s called high variance and 
       when the difference of errors is low then it’s called low variance. 
 ```
 # What is OverFitting?
 ```
-A statistical model is said to be overfitted when
-    the model does not make accurate predictions on testing data.
+A model is said to be overfitted when it performs very well for training data but has poor performance with test data.
+
+In this case, the machine learning model learns the details and noise in the training data such that it negatively affects the performance of the model on test data.
 ```
+![img_1.png](img_1.png)
 Reasons for Overfitting are as follows:
 ```
-    1.High variance and low bias 
+    1.The model has High variance and low bias
     2.The model is too complex
-    3.The size of the training data 
+    
+    3.The size of the training dataset used is not enough
+    4.Data used for training is not cleaned and contains noise (garbage values) in it 
 ```
 Techniques to reduce overfitting:
 
 ```
     1.Increase training data.
-    2.Reduce model complexity.
-    3.Early stopping during the training phase (have an eye over the loss over the training period as soon as loss begins to increase stop training).
-    4.Ridge Regularization and Lasso Regularization
+    Removing features(Reducing Noise in data)
+    2.Ridge Regularization and Lasso Regularization
+    3.Using K-fold cross-validation
+    4.Ensembling
     5.Use dropout for neural networks to tackle overfitting.
-    6.Ensembling
-    7.Removing Features
 ```
 # What is UnderFitting?
 ```
-A statistical model or a machine learning algorithm is said to have underfitting when 
-it cannot capture the underlying trend of the data, 
-i.e., it only performs well on training data but performs poorly on testing data. 
+When a model has not learned the patterns in the training data well and is unable to generalize well on the new data, it is known as underfitting. 
+An underfit model has poor performance on the training data and will result in unreliable predictions.
+Underfitting occurs due to high bias and low variance.
+```
+![img.png](img.png)
+
+Reasons for Underfitting:
+```
+* The model has a high bias
+The model is too simple
+
+* The size of the training dataset used is not enough
+Data used for training is not cleaned and contains noise (garbage values) in it ==> Noise is unnecessary and irrelevant data that reduces the performance of the model.
+```
+Ways to Tackle Underfitting:
+```
+* Increase the number of features in the dataset
+* Increase the duration of training the data
+
+Increase model complexity
+Reduce noise in the data
 ```
