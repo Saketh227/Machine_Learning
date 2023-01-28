@@ -34,14 +34,35 @@ if CF = MAE:
 So we use hubber loss as cost function to overcome these disadvantages.
     This huber loss is combination of MSE and MAE 
     It has hyperparamete delta.
-
 ```
+<p align="center">
+  <img src="img_5.png" />
+</p>
+
 # Performance Metrics:
 R_SQUARE:
 ```
+* R-squared is a statistical measure of how close the data are to the fitted regression line. It is also
+known as the coefficient of determination.
 
+* R-squared = Explained variation / Total variation
+* R-squared is always between 0 and 100%.
+* The higher the R-squared, the better the model fits your data.
 ```
+<p align="center">
+  <img src="img_2.png" />
+</p>
+<p align="center">
+  <img src="img_3.png" />
+</p>
+
+
 Adjusted_R_SQUARE :
 ```
-
+* Even if we add independent variables which are not meaningful**, it will improve R-Square
+value.
+* we use adjusted R-Square to measure equivalent RSquare,which penalizes our model with any junk independent variable.
 ```
+<p align="center">
+  <img src="img_4.png" />
+</p>

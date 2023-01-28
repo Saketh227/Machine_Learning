@@ -1,24 +1,34 @@
-# What is Machine Learning?
-Layman:
+- [ ] Q1. What is the difference between AI, Data Science, ML, and DL?
+- [ ] Q2. What is the difference between Supervised learning, Unsupervised learning and
+Reinforcement learning?
+- [ ] Q10. Why Support Vector Regression? Difference between SVR and a simple regression
+model?
 ```
-    Machine Learning can be defined as the ability of a machine to learn something without having to be programmed for that specific thing.
-    
-    computers use a massive set of data and apply algorithms for ‘training’ themselves and making predictions.
-```
-Def:
-```
-    Machine learning is a subset of Artificial Intelligence that comprises algorithms programmed to gather information without explicit instructions at each step.
+In simple linear regression, try to minimize the error rate. But in SVR, we try to fit the error within
+a certain threshold.
 ```
 
-Story:
+
+
+# Q . What is Machine Learning?
+**`Machine Learning :`** 
 ```
-    Machine Learning is a subset of AI where the machine is trained with a lot of data
-    and that machine is used to solve some problems based on its training(prior experiences) even though the scenario is new to it.
-    This is done without any explicit programming for that particular scenario.
+`Technical Definition`: 
+    * Machine learning is the scientific study of algorithms and statistical models that computer systems use to
+perform a specific task without using explicit instructions, relying on patterns and inference instead.
+    
+`Layman Definition`:    
+    Machine Learning can be defined as the ability of a machine to learn something 
+    based on the patterns of historical data 
+    to make a data-driven prediction
+    without having to be programmed for that specific scenario.
+
 ```
 
 # What is an Algoritm?
-```Algorithm is a set of instructions```
+```
+Algorithm is a set of instructions
+```
 
 # What is Machine Learning Algorithm??
 ```Machine Learning algorithm are sets of instructions that the model follows to return an acceptable result```
